@@ -1,19 +1,13 @@
-LivingLight
---------------
-You can watch it live by clicking on the link https://living-light.com.ua/
-This site was deployed on vps using gunicorn.
+ТЕСТОВОЕ ЗАДАНИЕ
 
-Development setup
----------------
-In a Python 3.8.8 virtual environment:
+Написать мини-проект на Django
+Регистрация аккаунта через телеграм-бот (aiogram).
+Необходима веб-страница с авторизацией. После успешной авторизации открывается страница, где отображаются данные аккаунта в телеграме (имя, юзернейм, юзер-айди), а так же кнопка, которая будет вести на телеграм-аккаунт юзера
+Так-же нужна джанго-админка, где можно посмотреть все данные юзеров, а так же редактировать их
+Все это залить на любую впску.
 
-    $ cd requirements
-    $ pip install -r requirements.txt
-    $ cd ..
-    $ python manage.py migrate
+Скинуть результат в виде архива, или ссылки на гитхаб\гитлаб и тп., а так же юзернейм телеграм-бота, и ссылку на страницу авторизации
 
-Now you can start the development server:
-
-    $ python manage.py runserver
+Стек, кроме Django и aiogram - произвольный, как и способ реализации
 
     
